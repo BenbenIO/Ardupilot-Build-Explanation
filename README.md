@@ -10,14 +10,12 @@
 * check the output from the consol to get which version they compile 
 * You can also connect to Mission Planner (Windows) and see in the section "Messages" 
 <p align="center">
-  <img src="found_device.png">
+  <img src="images/found_device.png">
 </p>
 <p align="center">
-  <img src="firmware_version.png">
+  <img src="images/firmware_version.png">
 </p>
-<p align="centxer">
-  <img src="mission_planner.png">
-</p>
+
 
 ### 2/ Build Ardupilot
 #### 2.1/ Try to compile the code for the board
@@ -62,6 +60,10 @@ Select the firmware arducopter.bin that you want to upload and wait...
 #### 2.4/ Current result:
 When configure with --board CubeBlack, the QGroundControl station cannot connect to the Pixhawk anymore but MissionPlanner can.
 When configure with --board fmuv3 both QGroundControl and MissionPlanner connect correctly to the board.
+
+<p align="center">
+  <img src="images/MissionPlanner.png">
+</p>
 
 ### 3/ Following works:
 #### 3.1/ Make the process more stable
